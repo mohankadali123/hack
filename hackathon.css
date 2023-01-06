@@ -1,0 +1,157 @@
+@import url('https: //fonts.googleapis.com/css2?family=Spartan: wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan',sans-serif;
+}
+body
+{
+    position: relative;
+    background: linear-gradient( rgba(3, 3, 3) ,rgba(3, 21, 126));
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+}#mainlogo
+{
+    margin-left: 30px;
+    color: rgb(242, 255, 0);
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    
+}
+#navbar a
+{
+    margin-top: 8px;
+    float: left;
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+#navbar
+{
+    margin-right: 200px;
+}
+#maindiv
+{    
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0,0,0,1.0);
+
+}
+#introdiv
+{
+    width: 450px;
+    height: 200px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+#intro1
+{
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#intro2
+{
+    color: rgb(254, 253, 252);
+    font-size: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#middlediv
+{
+    display: flex;
+    justify-content: space-between;
+}
+#loginpage,#signuppage
+{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+    background: linear-gradient(rgb(13, 13, 13,0.6),rgb(22, 21, 21,0.7));
+    margin-right: 100px;
+    transition: 0.5s;
+}
+#signuppage,#loginpage:hover
+{
+    width: 370px;
+    height: 330px;
+}
+#signuppage
+{
+    display: none;
+}
+
+#login
+{
+    color: yellow;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#username,#username2
+{
+    margin-top: 35px;
+    margin-left: 30px;
+    width: 280px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(35, 34, 34);
+    border-bottom-color: yellow;
+    border-right-color: yellow;
+
+
+}
+#password,#password2
+{
+    margin-top: 35px;
+    margin-left: 30px;
+    width: 280px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(35, 34, 34);
+    border-bottom-color: yellow;
+    border-right-color: yellow;
+}
+#but1
+{
+    margin-top: 30px;
+    margin-left: 40%;
+    width: 60px;
+    height: 30px;
+    color: rgb(12, 12, 9);
+    transition: 0.5s;
+}
+#but1:hover
+{
+    width: 65px;
+    height: 33px;
+    background: yellow;
+    color: rgb(20, 20, 19);
+}
+#conpasswd
+{
+    margin-top: 35px;
+    margin-left: 30px;
+    width: 280px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(35, 34, 34);
+    border-bottom-color: yellow;
+    border-right-color: yellow;
+}
+#signupbut
+{
+    align-self:;
+    background: transparent;
+    border: none;
+    color: yellow;
+    font-size: 20px;
+}
